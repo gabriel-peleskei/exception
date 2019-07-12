@@ -1,0 +1,21 @@
+{
+    "name": "gabriel-peleskei/exception",
+    "description": "Extended exception handling",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Gabriel Peleskei",
+            "email": "gabriel.peleskei@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GabrielPeleskei\\" : "src/"
+        }
+    }
+}
